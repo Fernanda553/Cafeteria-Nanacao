@@ -1,9 +1,6 @@
 ﻿import express from 'express'
-// import cafes from './cafes.json'
-// import * as cafes from './cafes.json'
+import cafes from './cafes.json'
 const app = express()
-
-// const cafes = require('./cafes.json')
 
 app.listen(3000, console.log('SERVER ON'))
 
