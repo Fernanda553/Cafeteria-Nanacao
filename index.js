@@ -1,5 +1,5 @@
 ﻿import express from 'express'
-import cafes from './cafes.json'
+import { cafes } from './cafes.js'
 const app = express()
 
 app.listen(3000, console.log('SERVER ON'))
